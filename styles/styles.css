@@ -1,6 +1,41 @@
+html{
+    font-size: 15pt;
+
+
+}
+
 #main{
-    width: 400px;
+    width: 250px;
     height: 200px;
+    padding: 0 30px 20px 30px;
     border: lightgrey solid 1px;
-    padding: 30px;
+    border-radius: 10px;
+
+
+}
+
+h1{
+    font-family: "Tinos", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1976d2;
+
+}
+
+#number{
+    border: lightgrey solid 1px;
+    margin: 10px 0;
+    width: 250px;
+    height: 20px;
+    padding-left: 5px;
+    border-radius: 7px;
+}
+
+#submit-button {
+    color: #1976d2;
+    background: none;
+    font-weight: bold;
+    border: #1976d2 solid 3px;
+    border-radius: 7px;
+    margin-left: 195px;
 }
