@@ -13,9 +13,21 @@
             <h1> Form</h1>
             <form method="post" action="">
                 <label id="label-1" for="number"> Number</label><br>
-                <input type="text" name="number"  id="number" placeholder="Please enter a number"><br>
+                <input type="number" name="number"  id="number" placeholder="Please enter a number"><br>
                 <input type="submit" value="Submit" id="submit-button">
             </form>
         </div>
+        <script>
+            function validateInput() {
+                const inputField = document.getElementById("number");
+                const inputValue = parseInt(inputField.value);
+
+                if (inputValue <= 10) {
+
+                    alert("Please enter a number greater than 10.");
+                    inputField.value = "";
+                }
+            }
+        </script>
     </body>
 </html>
